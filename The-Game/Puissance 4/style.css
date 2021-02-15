@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rock+Salt&family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Rock Salt', cursive;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: xx-large;
+    
+}
+
+.puissance-4 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid lightslategray;
+    min-width: 75vh;
+    height: 75vh;
+    padding: 2.5px;
+   
+}
+
+.case {
+    border: 3px solid rgba(70, 112, 70, 0.651);
+    width: 13%;
+    height: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+
+}
+
+.caseBis {
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+}
